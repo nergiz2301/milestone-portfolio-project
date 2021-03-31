@@ -1,0 +1,95 @@
+body{
+    background-color:#ffffff;
+ 
+    
+}
+body h2,h3,h4{
+    font-family:'Volkhov',serif;
+    font-size:40px;
+}
+
+body p{
+    font-family: 'Average',serif;
+    font-size:30px;
+}
+header{
+    background-color: #de493c;
+    width:1350px;
+    height:120px;
+}
+header.full-width{
+    margin:5px;
+    padding:10px;
+    width:1300px;
+    height:80px;
+    overflow:auto;
+}
+header.half-width1{
+    width:560px;
+    height:50px;
+    float:left;
+
+}
+.half-width1 h4{
+    margin:5px;
+    padding-top:10px;
+    padding-left:50px;
+    font-size:25px;
+    color:#ffffff;
+
+}
+.half-width2 h3{
+    padding-bottom:10px;
+    padding-left:20px;
+    color:#ffffff;
+    font-size:28px;
+    text-align: center;
+}
+
+
+#work{
+    background-color:#ffffff;
+    float:center;
+    overflow:auto;
+
+}
+#work.full-width{
+    box-sizing: border-box;
+    width:1200px;
+    height:1450px;
+    
+}
+#work h2{
+    font-size:30px;
+    font-weight: 700;
+    padding-left:350px;
+    text-align:center;
+
+}
+.third-width{
+    margin:10px;
+    padding:30px;
+    float:center;
+    vertical-align: auto;
+    width:1200px;
+    height:450px;
+    overflow: auto;
+}
+.third-width img{
+    float:left;
+    padding-right:50px;
+    width:550px;
+
+    
+}
+.third-width h4{
+    font-size:25px;
+    padding:10px;
+
+}
+.third-width p{
+    padding:10px;
+    font-size:22px;
+    
+
+}

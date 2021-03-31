@@ -1,0 +1,115 @@
+
+/*********************contact***************/
+    
+body{
+    background:#ffffff;
+    background-size: cover;
+    
+}
+body h2 h4{
+    font-family:'Volkhov',serif;
+    font-size:40px;
+}
+body p{
+    font-family: 'Average',serif;
+    font-size:30px;
+}
+
+header{
+    width:1350px;
+    height:120px;
+    background-color: #de493c;
+
+}
+header h4{
+    padding-top:20px;
+    padding-left:70px;
+    color:#ffffff;
+    font-size:25px;
+}
+#contact{
+    background-color: #e0e0d1;
+    
+}
+#contact.full-width{
+    width:1350px;
+    height:350px;
+    
+
+}
+#contact h2{
+    margin:auto;
+    text-align:center;
+    font-size:30px;
+    padding:35px;
+    
+}
+.section-one,
+.section-two,
+.section-three{
+    width:380px;
+    float:left;
+    height:auto;
+    text-align:center;
+}
+.section-one h4{
+    padding-top:50px;
+    padding-left:125px;
+    font-size:20px;
+}
+.section-one p{
+    padding-top:20px;
+    padding-left:150px;
+    font-size:18px;
+    
+
+}
+.section-two{
+    padding-top:50px;
+    padding-right:5px;
+    padding-left:75px;
+    font-size:20px;
+
+}
+.section-two ul{
+    list-style: none;
+    padding-top:5px;
+    padding-left:50px;
+    
+}
+.section-two ul li{
+    display:inline-block;
+
+}
+.section-two img{
+    padding-right:20px;
+}
+.section-three{
+    padding-top:50px;
+    font-size:20px;
+    padding-right: 100px;;
+}
+.section-three p{
+    padding-top:15px;
+    padding-right:10px;
+    font-size:18px;
+}
+footer{
+    background-color:#e0e0d1;
+    background-size: auto;
+    
+}
+footer h5{
+    text-align:center;
+    clear:both;
+    margin:0 auto;
+    height:50px;
+    padding-top:50px;
+}
+
+
+
+
+
+
+

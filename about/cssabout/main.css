@@ -1,0 +1,65 @@
+body{
+    background:#ffffff;
+    background-size: cover;
+    
+}
+body h2 h4{
+    font-family:'Volkhov',serif;
+    font-size:40px;
+}
+body p{
+    font-family: 'Average',serif;
+    font-size:30px;
+}
+
+header{
+    width:1350px;
+    height:120px;
+    background-color: #de493c;
+
+}
+header h4{
+    padding-top:20px;
+    padding-left:70px;
+    color:#ffffff;
+    font-size:25px;
+}
+
+#about.full-width{
+    width:1350px;
+    height: 600px;
+    padding:100px;
+    margin:auto;;
+    text-decoration: white;
+    background-color: tomato;
+    background-size: cover;
+    
+}
+.full-width h2{
+    font-size:30px;
+    padding:10px;
+    text-align: center;
+    text-decoration:#ffffff;
+}
+#about.half-width{
+    width:1200px;
+    height:auto;      
+}
+#about-me-image{
+    padding-left:90px;
+    padding-right: 20px;
+    float:left;
+    width:350px;
+    height:350px;
+    padding-bottom:100px;
+        
+}
+.half-width p{
+    font-size:20px;
+    line-height:35px;
+    text-align: center;
+    padding-left:70px;
+    float:left;
+    width:605px;
+           
+}
