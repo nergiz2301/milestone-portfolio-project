@@ -14,26 +14,57 @@ body p{
     font-family: 'Average',serif;
     font-size:30px;
 }
-
 header{
     width:1350px;
     height:120px;
-    background-color: #de493c;
+}
+.full-width1{
+    margin:auto;
+    padding:10px;
+    background-color:#de493c;
+    width:1350px;
+    height:80px;
+}
+nav ul{
+    list-style-type: none;
+    margin:40px;
+    padding:0;
 
 }
-header h4{
-    padding-top:20px;
-    padding-left:70px;
-    color:#ffffff;
-    font-size:25px;
+nav ul li{
+    display:inline-block;
 }
-#contact{
+nav ul li a{
+    margin-right:1px;
+    margin-left:30px;
+    padding-top:35px;
+    padding-right:10px;
+    padding-left:30px;
+    color:#e1b382;
+}
+.half-width{
+    width:660px;
+    height:80px;
+    float:left;
+}
+.half-width h3{
+    padding-top:5px;
+    padding-left:70px;
+    padding-bottom:5px;
+    color:#e1b382;
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+#contact.contact.html{
     background-color: #e0e0d1;
+    background-size: cover;
     
 }
-#contact.full-width{
+#contact.full-width2{
     width:1350px;
     height:350px;
+    
     
 
 }
