@@ -13,51 +13,68 @@ body p{
     font-size:30px;
 }
 header{
-    background-color: #de493c;
     width:1350px;
     height:120px;
 }
-header.full-width{
+.full-width1 {
     margin:5px;
     padding:10px;
-    width:1300px;
+    background-color:#de493c;
+    width:1350px;
     height:80px;
-    overflow:auto;
 }
-header.half-width1{
-    width:560px;
-    height:50px;
+nav ul{
+    list-style-type: none;
+    margin:40px;
+    padding:0;
+
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    margin-right:1px;
+    margin-left:30px;
+    padding-top:35px;
+    padding-right:10px;
+    padding-left:30px;
+    color:#e1b382;
+}
+.half-width{
+    width:660px;
+    height:80px;
     float:left;
-
 }
-.half-width1 h4{
-    margin:5px;
-    padding-top:10px;
-    padding-left:50px;
-    font-size:25px;
-    color:#ffffff;
-
-}
-.half-width2 h3{
-    padding-bottom:10px;
-    padding-left:20px;
-    color:#ffffff;
-    font-size:28px;
-    text-align: center;
+.half-width h3{
+    padding-top:5px;
+    padding-left:70px;
+    padding-bottom:5px;
+    color:#e1b382;
+    font-size:30px;
 }
 
 
-#work{
+#work.html{
     background-color:#ffffff;
+    background-size: cover;
+    display:block;
     float:center;
     overflow:auto;
 
 }
-#work.full-width{
+#work.html.full-width2{
     box-sizing: border-box;
     width:1200px;
     height:1450px;
+    background-color: #ffffff;
     
+}
+.full-width2 h2{
+    padding:10px;
+    font-size:35px;
+    color:#3d3d3d;
+    text-align:center;
+    background-color: #ffffff;
 }
 #work h2{
     font-size:30px;
